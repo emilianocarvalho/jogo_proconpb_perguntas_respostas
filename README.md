@@ -1,4 +1,4 @@
-### Jogo Simples de Pergunta e Resposta
+# Jogo Simples de Pergunta e Resposta
 
 Necessário servidor web, Mysql e PHP instalado!
 
