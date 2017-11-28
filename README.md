@@ -2,17 +2,17 @@
 
 Necessário servidor web, Mysql e PHP instalado!
 
-Tela Home
+### Tela Home
 ![Alt text](/sprint/home.png?raw=true "Home")
-Tela Placar
+### Tela Placar
 ![Alt text](/sprint/placar.png?raw=true "Placar")
-Tela Perguntas
+### Tela Perguntas
 ![Alt text](/sprint/pergunta.png?raw=true "Pergunta")
-Tela Resposta Correta
+### Tela Resposta Correta
 ![Alt text](/sprint/resposta_correta.png?raw=true "Correta")
-Tela Resposta Errada
+### Tela Resposta Errada
 ![Alt text](/sprint/resposta_incorreta.png?raw=true "Errada")
-Tela Adicionar Perguntas
+### Tela Adicionar Perguntas
 ![Alt text](/sprint/adicionar_pergunta_resposta.png?raw=true "Adicionar Pergunta")
-Tela Adicionar Equipe
+### Tela Adicionar Equipe
 ![Alt text](/sprint/adicionar_equipe.png?raw=true "Adicionar Equipe")
