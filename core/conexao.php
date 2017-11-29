@@ -1,7 +1,7 @@
 <?php
 
 class ConexaoDb {
-  private static $SQL = "mysql:host=localhost;dbname=banco_jogo_procon";
+  private static $SQL = "mysql:host=localhost;dbname=gincana2017v";
   private static $USER = "root";
   private static $PWD = "fabioadmin";
 
