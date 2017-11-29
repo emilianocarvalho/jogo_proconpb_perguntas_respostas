@@ -1,5 +1,0 @@
-
-SELECT * INTO OUTFILE '/tmp/respostas.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM respostas;
-
-
-SELECT * INTO OUTFILE '/tmp/gabaritos.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM gabaritos;
