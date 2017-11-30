@@ -1,9 +1,11 @@
 body {
   padding-top: 90px;
-  background-color: #fff;
+  background-color: #d8d8d8ff;
 }
-
+.badge { margin-left: 8px;}
+         
 .principal {
+  width: 1200px;
   padding: 0px 15px;
   text-align: justify;
 }

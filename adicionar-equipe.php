@@ -1,4 +1,4 @@
-<?php $addPerguntas = '<li><a href="adicionar-pergunta.php">Adicionar Perguntas</a></li>'; ?>
+<?php $addPerguntas = '<li><a class="btn btn-info btn-xs" href="adicionar-pergunta.php">Adicionar Perguntas</a></li>'; ?>
 <?php $addEquipe = '';?>
 <?php require_once ('view/partlals/header.php') ?>
 

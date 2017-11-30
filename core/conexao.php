@@ -1,14 +1,14 @@
 <?php
 
 class ConexaoDb {
-  private static $SQL = "mysql:host=localhost;dbname=gincana2017v";
+  private static $SQL = "mysql:host=localhost;dbname=gincana2017";
   private static $USER = "root";
-  private static $PWD = "fabioadmin";
+  private static $PWD = "pr0c0np3";
+//   private static $PWD = "fabioadmin";
 
   private static $conexao = null;
 
-    public function __construct() {
-    }
+    public function __construct() {}
 
     public static function getInstanceConexao() {
         if (empty(self::$conexao)) {

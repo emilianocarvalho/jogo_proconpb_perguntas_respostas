@@ -1,5 +1,5 @@
 <?php $addPerguntas = ''; ?>
-<?php $addEquipe = '<a href="adicionar-equipe.php">Adicionar Equipe</a></li>';?>
+<?php $addEquipe = '<a class="btn btn-info btn-xs" href="adicionar-equipe.php">Adicionar Equipe</a></li>';?>
 
 <?php require_once ('view/partlals/header.php') ?>
 

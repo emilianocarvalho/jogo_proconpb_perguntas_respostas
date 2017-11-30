@@ -3,8 +3,7 @@ require_once ('conexao.php');
 
 class Query Extends ConexaoDB {
 
-  public function __construct() {
-  }
+  public function __construct() {}
 
   public function insert($query) {
     try{

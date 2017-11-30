@@ -8,7 +8,7 @@
     <blockquote>
       <?php  $rows = Query::selection($_GET['id']);
       header('Content-Type: text/html; charset=utf-8');
-            foreach ($rows as  $row) { ?>
+      foreach ($rows as  $row) { ?>
        <p><?= $row['pergunta'] ?></p>
 
        <footer class="acerto"><input name="search" type="radio" id="a" value="a"><?= $row['a'] ?></footer>
@@ -17,9 +17,9 @@
        <footer class="acerto"><input name="search" type="radio" id="d" value="d"><?= $row['d'] ?></footer>
        <?php } $correto = Query::selectionResposta($row['correta'], $_GET['id']);
                 foreach ($correto as  $r)
-                  $c=$r[$row['correta']];
-
-        ?>
+                $c=$r[$row['correta']];
+                
+                ?>
     </blockquote>
   </div>
   <!-- Button (Double) -->
@@ -33,3 +33,19 @@
   </fieldset>
 </form>
 </div>
+                <div class="modal">
+                  <div class="modal-background"></div>
+                  <div class="modal-card">
+                    <header class="modal-card-head">
+                      <p class="modal-card-title">Modal title</p>
+                      <button class="delete" aria-label="close"></button>
+                    </header>
+                    <section class="modal-card-body">
+                      <!-- Content ... -->
+                    </section>
+                    <footer class="modal-card-foot">
+                      <button class="button is-success">Save changes</button>
+                      <button class="button">Cancel</button>
+                    </footer>
+                  </div>
+                </div>

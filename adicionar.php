@@ -1,8 +1,8 @@
 <?php
 require_once ('core/query.php');
 
-$addPerguntas = '<li><a href="adicionar-pergunta.php">Adicionar Perguntas</a></li>';
-$addEquipe = '<a href="adicionar-equipe.php">Adicionar Equipe</a></li>';
+$addPerguntas = '<li><a class="btn btn-info btn-xs" href="adicionar-pergunta.php">Adicionar Perguntas</a></li>';
+$addEquipe = '<a class="btn btn-info btn-xs" href="adicionar-equipe.php">Adicionar Equipe</a></li>';
 
 require_once ('view/partlals/header.php');
 

@@ -1,10 +1,10 @@
-<?php $addPerguntas = '<li><a href="adicionar-pergunta.php">Adicionar Perguntas</a></li>'; ?>
-<?php $addEquipe = '<a href="adicionar-equipe.php">Adicionar Equipe</a></li>';?>
+<?php $addPerguntas = '<li><a class="btn btn-info btn-xs" href="adicionar-pergunta.php">Adicionar Perguntas</a></li>'; ?>
+<?php $addEquipe = '<a class="btn btn-info btn-xs" href="adicionar-equipe.php">Adicionar Equipe</a></li>';?>
 <?php require_once ('core/query.php'); ?>
 <?php require_once ('view/partlals/header.php') ?>
     <div  id="form-question"> </div>
     <div id="lateral">
-      <img style="margin: 10px 30px; width: 351px; height: 169px;" src="assets/img/gincanaProconPB2016.png"  alt="" />
+      <img style="margin: 10px 10px; width: 604px; height: 316px;" src="assets/img/7Gincana2017.png"  alt="" />
       <div id="pontos"></div>
       <?php  $rows = Query::selectionEquipe();
         foreach ($rows as  $row) {?>
