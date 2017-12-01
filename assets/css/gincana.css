@@ -9,6 +9,30 @@ body {
   padding: 0px 15px;
   text-align: justify;
 }
+
+.active { padding-right: 8px; background-color: rgb(253, 136, 2)}
+.sucess { background-color: rgb(253, 19, 2)}
+.warning { background-color: rgb(42, 238, 3)}
+.danger { background-color: rgb(253, 236, 2)}
+
+.panel-body {
+  background-color: rgb(240, 239, 239);
+}
+
+
+.row-ID {
+  width: 10%;
+}
+.row-name {
+  width: 40%;
+}
+.row-job {
+  width: 30%;
+}
+.row-email {
+  width: 20%;
+}
+
 .ativar {
   background-color: #00FF00;
   border-color: #006400;

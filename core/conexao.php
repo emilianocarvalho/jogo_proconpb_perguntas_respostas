@@ -3,8 +3,8 @@
 class ConexaoDb {
   private static $SQL = "mysql:host=localhost;dbname=gincana2017";
   private static $USER = "root";
-  private static $PWD = "pr0c0np3";
-//   private static $PWD = "fabioadmin";
+//   private static $PWD = "pr0c0np3";
+  private static $PWD = "fabioadmin";
 
   private static $conexao = null;
 

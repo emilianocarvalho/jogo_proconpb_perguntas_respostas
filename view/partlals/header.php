@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Gincana Procon-PB</title>
+    <title>7ª Gincana EDUCAÇÃO PARA O CONSUMO 2017</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,10 +24,11 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/" >Procon Paraiba - Tira Teima</a>
+      <a class="navbar-brand" href="/" >7ª Gincana EDUCAÇÃO PARA O CONSUMO 2017</a>
         <ul class="list-inline">
           <?= $addPerguntas ?>
           <?= $addEquipe ?>
+          <li><a class="btn btn-info btn-xs" href="gincana.php">Apuração</a></li>          
         </ul>
     </div>
   </div>
