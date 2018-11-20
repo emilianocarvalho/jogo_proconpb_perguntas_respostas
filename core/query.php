@@ -51,7 +51,7 @@ public function selectionPontoEquipe() {
 
   public function selectionEquipe() {
     try{
-        $query = "SELECT * FROM equipe";
+        $query = "SELECT * FROM equipe order by id_equipe";
         $validar = Parent::getInstanceConexao()->prepare($query);
         $validar->execute();
 

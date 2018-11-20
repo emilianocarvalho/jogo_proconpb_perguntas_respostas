@@ -60,10 +60,31 @@ img {
  position: relative;
  height: 50px;
  padding: 10px 10px;
- background-color: blue;
- border: solid 5px green;
+ /* background-color: blue; */
+ /* border: solid 5px green; */
  border-radius: 10px;
 }
+
+.equipe1 {
+    background-color: orange;
+}
+
+.equipe2 {
+    background-color: yellow;
+}
+
+.equipe3 {
+    background-color: green;
+}
+
+.equipe4 {
+    background-color: red;
+}
+
+.equipe5 {
+    background-color:blue;
+}
+
 .lateralb {
  margin-top: 10px;
  width: 150px;
@@ -71,7 +92,7 @@ img {
  height: 50px;
  padding: 10px 10px;
  background-color: red;
- border: solid 5px blue;
+ /* border: solid 5px blue; */
  border-radius: 10px;
  color: #fff;
 }

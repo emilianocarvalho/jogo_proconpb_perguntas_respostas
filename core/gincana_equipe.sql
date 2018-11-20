@@ -38,7 +38,7 @@ CREATE TABLE `equipe` (
 
 LOCK TABLES `equipe` WRITE;
 /*!40000 ALTER TABLE `equipe` DISABLE KEYS */;
-INSERT INTO `equipe` VALUES (3,'Equipe Amarela'),(1,'Equipe Azul'),(5,'Equipe Preta'),(4,'Equipe Verde'),(2,'Equipe Vermelha');
+INSERT INTO `equipe` VALUES (1,'Equipe Laranja'),(2,'Equipe Amarela'),(3,'Equipe Verde'),(4,'Equipe Vermelha'),(5,'Equipe Azul');
 /*!40000 ALTER TABLE `equipe` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

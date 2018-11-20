@@ -8,8 +8,11 @@
       <div id="pontos"></div>
       <?php  $rows = Query::selectionEquipe();
         foreach ($rows as  $row) {?>
-<input type="submit" class="laterala button" name="equipe"  onclick="selectionEquipe(<?= $row['id_equipe'] ?>);"  value="<?= $row['nome_equipe'] ?>" />      <?php } ?>
+        <input type="submit" class="laterala equipe<?= $row['id_equipe'] ?>" name="equipe"  onclick="selectionEquipe(<?= $row['id_equipe'] ?>);"  value="<?= $row['nome_equipe'] ?>" />      
+      <?php } ?>
+
     </div>
+
     <div class="flex-container">
         <div class="flip-container" onclick="this.classList.toggle('hover');">
             <div class="flex-item flipper">
