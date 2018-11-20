@@ -4,6 +4,7 @@
 <script src="assets/js/jquery.slim321.js"></script>
 <!-- <script src="assets/js/popper.js"></script> -->
 <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="assets/js/sweetalert2.min.js"></script>
 <!-- <script src="assets/js/jsB4/bootstrap.min.js" charset="utf-8"></script> -->
 </body>
 </html>

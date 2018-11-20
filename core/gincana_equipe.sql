@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `gincana2017` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `gincana2017`;
+CREATE DATABASE  IF NOT EXISTS `gincana` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `gincana`;
 -- MySQL dump 10.13  Distrib 5.7.20, for Linux (x86_64)
 --
--- Host: localhost    Database: gincana2017
+-- Host: localhost    Database: gincana
 -- ------------------------------------------------------
 -- Server version	5.7.20-0ubuntu0.16.04.1
 

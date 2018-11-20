@@ -26,7 +26,7 @@
   <div class="form-group">
   <label class="col-md-4 control-label" for="button1id"></label>
   <div class="col-md-6">
-      <button id="button1id" onclick='respostaCorreta("<?= $c ?>","<?=$row['correta']?>",<?= $_GET['equipe']?>,<?= $_GET['id'] ?>);' class="btn btn-success">Corrigir & Salvar</button>
+      <button id="button1id" onclick='respostaCorreta("<?= $c ?>","<?= $row['correta'] ?>",<?= $_GET['equipe']?>,<?= $_GET['id'] ?>);' class="btn btn-success">Corrigir & Salvar</button>
       <button id="Cancelar"  class="btn btn-danger" onClick="retornarQuestion();">Cancelar</button>
   </div>
   </div>

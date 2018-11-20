@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>7ª Gincana EDUCAÇÃO PARA O CONSUMO 2017</title>
+    <title>8ª Gincana EDUCAÇÃO PARA O CONSUMO 2018</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,6 +17,7 @@
     <!-- <link rel="stylesheet" href="assets/css/bulma.css"> -->
     <!-- <link rel="stylesheet" href="assets/css/bulma.css.map"> -->
     <link rel="stylesheet" href="assets/css/jogo.css" media="screen" title="no title">
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
     <script src="assets/js/perguntas.js" charset="utf-8"></script>
   </head>
 
@@ -24,7 +25,7 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/" >7ª Gincana EDUCAÇÃO PARA O CONSUMO 2017</a>
+      <a class="navbar-brand" href="/" >8ª Gincana EDUCAÇÃO PARA O CONSUMO 2018</a>
         <ul class="list-inline">
           <?= $addPerguntas ?>
           <?= $addEquipe ?>

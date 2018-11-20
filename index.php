@@ -251,4 +251,5 @@
             </div>
         </div>
     </div>
-    <?php require_once ('view/partlals/footer.php') ?>
+
+<?php require_once ('view/partlals/footer.php') ?>

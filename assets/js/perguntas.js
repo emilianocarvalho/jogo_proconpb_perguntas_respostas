@@ -2,35 +2,35 @@ var equipe
 var id
 var ponto
 
-function selectionEquipe (id_equipe) {
+function selectionEquipe(id_equipe) {
   equipe = id_equipe
 }
-function selectionQuestion (_id) {
+function selectionQuestion(_id) {
   id = _id
   if (equipe != null) {
     var xhttp = new XMLHttpRequest()
     xhttp.onreadystatechange = function () {
       document.getElementById('form-question').innerHTML = xhttp.responseText
     }
-
     xhttp.open('GET', 'question.php?id=' + _id + '&equipe=' + equipe, true)
     xhttp.send(null)
     equipe = null
     return xhttp
   } else {
-    alert('Escolha a Equipe para Responder!')
+    swal('Escolha a Equipe para Responder!', 'Escolha uma equipe!', 'error')
   }
 }
 
-function respostaQuestion (opcao, id_equipe, id_pergunta, ponto) {
+function respostaQuestion(opcao, id_equipe, id_pergunta, ponto) {
   var xhttp = new XMLHttpRequest()
   xhttp.open('GET', 'adicionar.php?resposta=' + opcao + '&equipe=' + id_equipe + '&pergunta=' + id_pergunta + '&ponto=' + ponto, true)
   xhttp.send(null)
   return xhttp
 }
 
-function respostaCorreta (frase, correto, id_equipe, id_pergunta) {
+function respostaCorreta(frase, correto, id_equipe, id_pergunta) {
   var opcao = null
+  var escolhafeita = true
   if (document.resposta.search[0].checked != false) {
     opcao = document.getElementById('a').value
   } else if (document.resposta.search[1].checked != false) {
@@ -40,21 +40,27 @@ function respostaCorreta (frase, correto, id_equipe, id_pergunta) {
   } else if (document.resposta.search[3].checked != false) {
     opcao = document.getElementById('d').value
   } else {
-    alert('Escolha uma opção!')
+    // swal('Escolha uma alternativa!')
+    swal('Escolha uma alternativa!', 'Alternativa não escolhida', 'error')
+    retornarQuestion();
+    escolhafeita = false
   }
 
-  if (opcao.toString() == correto.toString()) {
-    alert('Parabéns você acertou a opção correta:\n\n' + frase)
-    if (respostaQuestion(opcao, id_equipe, id_pergunta, 1)) { retornarQuestion() }
-    pontoEquipe()
-  } else {
-    alert('Infelizmente você errou, a opção correta é:\n\n' + frase)
-    if (respostaQuestion(opcao, id_equipe, id_pergunta, 0)) { retornarQuestion() }
-    pontoEquipe()
+  if (escolhafeita) {
+    if (opcao.toString() == correto.toString()) {
+      swal('Parabéns você acertou a opção correta:\n\n' + frase)
+      if (respostaQuestion(opcao, id_equipe, id_pergunta, 1)) { retornarQuestion() }
+      pontoEquipe()
+    } else {
+      swal('Infelizmente você errou, a opção correta é:\n\n' + frase)
+      if (respostaQuestion(opcao, id_equipe, id_pergunta, 0)) { retornarQuestion() }
+      pontoEquipe()
+    }
   }
 }
 
-function pontoEquipe () {
+
+function pontoEquipe() {
   var xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     document.getElementById('pontos').innerHTML = xhttp.responseText
@@ -66,7 +72,7 @@ function pontoEquipe () {
   return xhttp
 }
 
-function retornarQuestion () {
+function retornarQuestion() {
   var xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     document.getElementById('form-question').innerHTML = ''
@@ -78,7 +84,7 @@ function retornarQuestion () {
   return xhttp
 }
 
-function retornarPlacar () {
+function retornarPlacar() {
   var xhttp = new XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     document.getElementById('pontos').innerHTML = ''
@@ -90,7 +96,7 @@ function retornarPlacar () {
   return xhttp
 }
 
-function confirma () {
+function confirma() {
   if (request.readyState == 4) {
     var response = request.responseText
     var divmain = document.getElementById('geral')
