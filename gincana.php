@@ -29,7 +29,7 @@ require_once ('view/partlals/header.php');
   </thead>
   <tbody>
       <tr>
-          <td><span class="label active">O</span>&nbsp;ALICE CARNEIRO</td>
+          <td><span class="label active">O</span>&nbsp;RAUL MACHADO</td>
           <td>0.0</td>
           <td>0.0</td>
           <td>0.0</td>
@@ -39,7 +39,7 @@ require_once ('view/partlals/header.php');
           <td></td>
       </tr>
       <tr>
-          <td><span class="label sucess">O</span>&nbsp;PADRE HILDON BANDEIRA</td>
+          <td><span class="label danger ">O</span>&nbsp;DAURA SANTIAGO</td>
           <td>0.0</td>
           <td>0.0</td>
           <td>0.0</td>
@@ -49,7 +49,7 @@ require_once ('view/partlals/header.php');
           <td></td>
       </tr>
       <tr>
-          <td><span class="label warning">O</span>&nbsp;PROF. MARIA DO CARMO DE MIRANDA</td>
+          <td><span class="label warning">O</span>&nbsp;PADRE MORA</td>
           <td>0.0</td>
           <td>0.0</td>
           <td>0.0</td>
@@ -59,7 +59,17 @@ require_once ('view/partlals/header.php');
           <td></td>
       </tr>
       <tr>
-          <td><span class="label danger">O</span>&nbsp;E E P A C</td>
+          <td><span class="label sucess">O</span>&nbsp;FRANCISCO CAMPOS</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td>0.0</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><span class="label blue">O</span>&nbsp;RAUL CÓRDULA</td>
           <td>0.0</td>
           <td>0.0</td>
           <td>0.0</td>
