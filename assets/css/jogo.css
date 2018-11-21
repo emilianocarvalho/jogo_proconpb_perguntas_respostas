@@ -82,17 +82,6 @@ img {
 
 
 .equipe1 {
-<<<<<<< HEAD
-  background-color: orange;
-  color: black;
-  border-radius: 60px;
-  font-size: 20px;
-  text-shadow: 0px 1px 2px rgba(255, 255, 255, 2);
-}
-
-.equipe1:hover {
-  animation: bounce 1s;
-=======
     background-color: orange;
     color:black;
     border-radius: 60px;
@@ -102,23 +91,11 @@ img {
 
 .equipe1:hover {
     animation: bounce 1s;
->>>>>>> e2a0109578554298b82209e724198048558bb779
+    background-color: rgb(1, 11, 44);
 }
 
 
 .equipe2 {
-<<<<<<< HEAD
-  background-color: yellow;
-  color: black;
-  border-radius: 60px;
-  font-size: 20px;
-  text-shadow: 0px 1px 2px rgba(255, 255, 255, 2);
-}
-
-.equipe2:hover {
-  animation: bounce 1s;
-  background-color: yellow;
-=======
     background-color: yellow;
     color:black;
     border-radius: 60px;
@@ -128,48 +105,25 @@ img {
 
 .equipe2:hover {
     animation: bounce 1s;
->>>>>>> e2a0109578554298b82209e724198048558bb779
+    background-color: rgb(1, 11, 44);
 }
 
 
 .equipe3 {
-<<<<<<< HEAD
-  background-color: green;
-  color: white;
-  border-radius: 60px;
-  font-size: 20px;
-  text-shadow: 0px 1px 2px rgba(000, 000, 000, 2);
-}
-
-.equipe3:hover {
-  animation: bounce 1s;
-=======
     background-color: green;
     color: white;
     border-radius: 60px;
     font-size: 20px;
     text-shadow: 0px 1px 2px rgba(000, 000, 000, 2); 
->>>>>>> e2a0109578554298b82209e724198048558bb779
 }
 
 .equipe3:hover {
     animation: bounce 1s;
+    background-color: rgb(1, 11, 44);
 }
 
 
 .equipe4 {
-<<<<<<< HEAD
-  background-color: red;
-  color: white;
-  border-radius: 60px;
-  font-size: 20px;
-  text-shadow: 0px 1px 2px rgba(000, 000, 000, 2);
-}
-
-.equipe4:hover {
-  animation: bounce 1s;
-  background-color: red;
-=======
     background-color: red;
     color: white;
     border-radius: 60px;
@@ -179,23 +133,11 @@ img {
 
 .equipe4:hover {
     animation: bounce 1s;
->>>>>>> e2a0109578554298b82209e724198048558bb779
+    background-color: rgb(1, 11, 44);
 }
 
 
 .equipe5 {
-<<<<<<< HEAD
-  background-color: blue;
-  color: white;
-  border-radius: 60px;
-  font-size: 20px;
-  text-shadow: 0px 2px 2px rgba(000, 000, 000, 2);
-}
-
-.equipe5:hover {
-  animation: bounce 1s;
-  background-color: blue;
-=======
     background-color:blue;
     color: white;
     border-radius: 60px;
@@ -205,7 +147,7 @@ img {
 
 .equipe5:hover {
     animation: bounce 1s;
->>>>>>> e2a0109578554298b82209e724198048558bb779
+    background-color: rgb(1, 11, 44);
 }
 
 
