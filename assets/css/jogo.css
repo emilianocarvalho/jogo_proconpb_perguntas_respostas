@@ -65,91 +65,118 @@ img {
   border-radius: 10px;
 }
 
-@keyframes bounce{
-    0%, 20%, 60%, 100%{
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40%{
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
-    80%{
-        -webkit-transform: translateY(-5px);
-        transform: translateY(-5px);
-    }
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  80% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
 }
 
-
 .equipe1 {
-    background-color: orange;
-    color:black;
-    border-radius: 60px;
-    font-size: 20px;
-    text-shadow: 0px 1px 2px rgba(255, 255, 255, 2); 
+  background-color: orange;
+  color: black;
+  border-radius: 60px;
+  font-size: 20px;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 2);
 }
 
 .equipe1:hover {
-    animation: bounce 1s;
-    background-color: rgb(1, 11, 44);
+  animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
+.equipe1:active {
+  background-color: #da7f02;
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
 
 .equipe2 {
-    background-color: yellow;
-    color:black;
-    border-radius: 60px;
-    font-size: 20px;
-    text-shadow: 0px 1px 2px rgba(255, 255, 255, 2); 
+  background-color: yellow;
+  color: black;
+  border-radius: 60px;
+  font-size: 20px;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 2);
 }
 
 .equipe2:hover {
-    animation: bounce 1s;
-    background-color: rgb(1, 11, 44);
+  animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
+.equipe2:active {
+  background-color: rgb(224, 222, 55);
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
 
 .equipe3 {
-    background-color: green;
-    color: white;
-    border-radius: 60px;
-    font-size: 20px;
-    text-shadow: 0px 1px 2px rgba(000, 000, 000, 2); 
+  background-color: rgb(74, 165, 10);
+  color: white;
+  border-radius: 60px;
+  font-size: 20px;
+  text-shadow: 0px 1px 2px rgba(000, 000, 000, 2);
 }
 
 .equipe3:hover {
-    animation: bounce 1s;
-    background-color: rgb(1, 11, 44);
+  animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
+.equipe3:active {
+  background-color: green;
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
 
 .equipe4 {
-    background-color: red;
-    color: white;
-    border-radius: 60px;
-    font-size: 20px;
-    text-shadow: 0px 1px 2px rgba(000, 000, 000, 2); 
+  background-color: red;
+  color: white;
+  border-radius: 60px;
+  font-size: 20px;
+  text-shadow: 0px 1px 2px rgba(000, 000, 000, 2);
 }
 
 .equipe4:hover {
-    animation: bounce 1s;
-    background-color: rgb(1, 11, 44);
+  animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
+.equipe4:active {
+  background-color: rgb(185, 35, 15);
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
 
 .equipe5 {
-    background-color:blue;
-    color: white;
-    border-radius: 60px;
-    font-size: 20px;
-    text-shadow: 0px 2px 2px rgba(000, 000, 000, 2); 
+  background-color: blue;
+  color: white;
+  border-radius: 60px;
+  font-size: 20px;
+  text-shadow: 0px 2px 2px rgba(000, 000, 000, 2);
 }
 
 .equipe5:hover {
-    animation: bounce 1s;
-    background-color: rgb(1, 11, 44);
+  animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
+.equipe5:active {
+  background-color: rgb(12, 48, 150);
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
 
 .lateralb {
   margin-top: 10px;
@@ -169,13 +196,8 @@ img {
 }
 
 .laterala:hover {
-<<<<<<< HEAD
-  background-color: rgb(48, 32, 63);
-  color: #fff;
-=======
-  opacity: 0.7;
+  opacity: 1;
   filter: alpha(opacity=50);
->>>>>>> e2a0109578554298b82209e724198048558bb779
 }
 .laterala:visited {
   background-color: red;
