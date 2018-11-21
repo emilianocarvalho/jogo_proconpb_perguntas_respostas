@@ -17,7 +17,7 @@
         <div class="flip-container" onclick="this.classList.toggle('hover');">
             <div class="flex-item flipper">
                 <div class="front">
-                  <input name="question" type="submit" class="who" id="1" value="1" onclick="selectionQuestion(1);"/>
+                  <input name="question" type="submit" class="w1" id="1" value="1" onclick="selectionQuestion(1);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -29,7 +29,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input name="question" type="submit" class="who" id="2" value="2" onclick="selectionQuestion(2);"/>
+                    <input name="question" type="submit" class="w2" id="2" value="2" onclick="selectionQuestion(2);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -41,7 +41,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input name="question" type="submit" class="who" id="3" value="3" onclick="selectionQuestion(3);"/>
+                    <input name="question" type="submit" class="w3" id="3" value="3" onclick="selectionQuestion(3);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -53,7 +53,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input name="question" type="submit" class="who" id="4" value="4" onclick="selectionQuestion(4);"/>
+                    <input name="question" type="submit" class="w4" id="4" value="4" onclick="selectionQuestion(4);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -65,7 +65,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="5" value="5" onclick="selectionQuestion(5);"/>
+                    <input type="submit" class="w5" id="5" value="5" onclick="selectionQuestion(5);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -77,7 +77,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="6" value="6" onclick="selectionQuestion(6);"/>
+                    <input type="submit" class="w6" id="6" value="6" onclick="selectionQuestion(6);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -89,7 +89,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="7" value="7" onclick="selectionQuestion(7);"/>
+                    <input type="submit" class="w7" id="7" value="7" onclick="selectionQuestion(7);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -101,7 +101,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="8" value="8" onclick="selectionQuestion(8);"/>
+                    <input type="submit" class="w8" id="8" value="8" onclick="selectionQuestion(8);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -113,7 +113,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="9" value="9" onclick="selectionQuestion(9);"/>
+                    <input type="submit" class="w9" id="9" value="9" onclick="selectionQuestion(9);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -125,7 +125,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="10" value="10" onclick="selectionQuestion(10);"/>
+                    <input type="submit" class="w10" id="10" value="10" onclick="selectionQuestion(10);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -137,7 +137,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="11" value="11" onclick="selectionQuestion(11);"/>
+                    <input type="submit" class="w11" id="11" value="11" onclick="selectionQuestion(11);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -149,7 +149,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="12" value="12" onclick="selectionQuestion(12);"/>
+                    <input type="submit" class="w12" id="12" value="12" onclick="selectionQuestion(12);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -161,7 +161,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="13" value="13" onclick="selectionQuestion(13);"/>
+                    <input type="submit" class="w13" id="13" value="13" onclick="selectionQuestion(13);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -173,7 +173,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="14" value="14" onclick="selectionQuestion(14);"/>
+                    <input type="submit" class="w14" id="14" value="14" onclick="selectionQuestion(14);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -185,7 +185,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="15" value="15" onclick="selectionQuestion(15);"/>
+                    <input type="submit" class="w15" id="15" value="15" onclick="selectionQuestion(15);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -197,7 +197,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="16" value="16" onclick="selectionQuestion(16);"/>
+                    <input type="submit" class="w16" id="16" value="16" onclick="selectionQuestion(16);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -209,7 +209,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="17" value="17" onclick="selectionQuestion(17);"/>
+                    <input type="submit" class="w17" id="17" value="17" onclick="selectionQuestion(17);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -221,7 +221,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="18" value="18" onclick="selectionQuestion(18);"/>
+                    <input type="submit" class="w18" id="18" value="18" onclick="selectionQuestion(18);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -233,7 +233,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="19" value="19" onclick="selectionQuestion(19);"/>
+                    <input type="submit" class="w19" id="19" value="19" onclick="selectionQuestion(19);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->
@@ -245,7 +245,7 @@
             <div class="flex-item flipper">
                 <div class="front">
                     <!-- Conteúdo da frente -->
-                    <input type="submit" class="who" id="20" value="20" onclick="selectionQuestion(20);"/>
+                    <input type="submit" class="w20" id="20" value="20" onclick="selectionQuestion(20);"/>
                 </div>
                 <div class="back">
                     <!-- Conteúdo do verso -->

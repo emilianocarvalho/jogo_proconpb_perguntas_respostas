@@ -34,6 +34,13 @@ img {
   transform: rotateY(0deg);
   /*background-image: url('assets/img/err.png') no-repeat ;*/
 }
+
+.front input {
+  color: rgb(38, 61, 134);
+  font-size: 1.2em;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 4);
+}
+
 .back {
   transform: rotateY(180deg);
 }
@@ -212,9 +219,167 @@ img {
   height: 130px;
   border: none;
 }
+.w1 {
+  background: url('../img/01.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w2 {
+  background: url('../img/02.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w3 {
+  background: url('../img/03.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w4 {
+  background: url('../img/04.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w5 {
+  background: url('../img/05.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w6 {
+  background: url('../img/06.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w7 {
+  background: url('../img/07.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w8 {
+  background: url('../img/08.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w9 {
+  background: url('../img/09.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w10 {
+  background: url('../img/10.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+.w11 {
+  background: url('../img/11.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w12 {
+  background: url('../img/12.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w13 {
+  background: url('../img/13.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w14 {
+  background: url('../img/14.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w15 {
+  background: url('../img/15.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+.w16 {
+  background: url('../img/16.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w17 {
+  background: url('../img/17.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w18 {
+  background: url('../img/18.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w19 {
+  background: url('../img/19.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
+.w20 {
+  background: url('../img/20.jpg') no-repeat center;
+  background-size: 179px 130px;
+  width: 180px;
+  height: 130px;
+  border: none;
+}
+
 .err {
-  background: url('../img/err.png') no-repeat;
-  background-size: auto;
+  background: url('../img/err.png') no-repeat center;
+  background-size: 179px 130px;
   width: 180px;
   height: 130px;
   border: none;
