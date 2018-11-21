@@ -93,6 +93,7 @@ img {
 
 .equipe1:hover {
   animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
 .equipe1:active {
@@ -111,6 +112,7 @@ img {
 
 .equipe2:hover {
   animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
 .equipe2:active {
@@ -129,6 +131,7 @@ img {
 
 .equipe3:hover {
   animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
 .equipe3:active {
@@ -147,6 +150,7 @@ img {
 
 .equipe4:hover {
   animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
 .equipe4:active {
@@ -165,6 +169,7 @@ img {
 
 .equipe5:hover {
   animation: bounce 1s;
+  background-color: rgb(1, 11, 44);
 }
 
 .equipe5:active {
@@ -189,6 +194,7 @@ img {
   padding: 10px 10px;
   position: relative;
 }
+
 .laterala:hover {
   opacity: 1;
   filter: alpha(opacity=50);
