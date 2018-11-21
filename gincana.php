@@ -7,7 +7,7 @@ $addEquipe = '<a class="btn btn-info btn-xs" href="adicionar-equipe.php">Adicion
 require_once ('view/partlals/header.php');
 ?>
 <div class="page-header">
-  <h1>APURAÇÃO 7ª GINCANA</h1>
+  <h1>APURAÇÃO 8ª GINCANA</h1>
 </div>
 <div class="panel panel-default">
   <div class="panel-heading">
