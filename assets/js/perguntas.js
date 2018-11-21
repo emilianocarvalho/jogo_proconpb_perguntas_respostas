@@ -52,18 +52,13 @@ function respostaCorreta(frase, correto, id_equipe, id_pergunta) {
 
   if (escolhafeita) {
     if (opcao.toString() == correto.toString()) {
-      swal('RESPOSTA EXATA!', `Alternativa Correta: ${correto.toString()} - ${frase}`, 'success');
+      swal('RESPOSTA EXATA!', `Alternativa Correta: ${correto.toString().toUpperCase()} - ${frase}`, 'success');
       if (respostaQuestion(opcao, id_equipe, id_pergunta, 1)) {
         retornarQuestion();
       }
       pontoEquipe();
     } else {
-      swal(
-        'RESPOSTA ERRADA!',
-        `Alternativa Correta:
-       ${correto.toString()} - ${frase}`,
-        'error',
-      );
+      swal('RESPOSTA ERRADA!', `Alternativa Correta: ${correto.toString().toUpperCase()} - ${frase}`, 'error');
       if (respostaQuestion(opcao, id_equipe, id_pergunta, 0)) {
         retornarQuestion();
       }
