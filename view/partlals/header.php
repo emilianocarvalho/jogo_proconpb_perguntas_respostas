@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="assets/css/gincana.css" media="screen" title="no title">
     <!-- <link rel="stylesheet" href="assets/css/bulma.css"> -->
     <!-- <link rel="stylesheet" href="assets/css/bulma.css.map"> -->
-    <link rel="stylesheet" href="assets/css/jogo.css" media="screen" title="no title">
     <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="assets/css/jogo.css" media="screen" title="no title">
     <script src="assets/js/perguntas.js" charset="utf-8"></script>
   </head>
 

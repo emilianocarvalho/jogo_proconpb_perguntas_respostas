@@ -1,22 +1,26 @@
 <?php
 
-class ConexaoDb {
-    
-  private static $SQL = "mysql:host=localhost;dbname=gincana";
-  private static $USER = "root";
-  private static $PWD = "pr0c0np!@#";
+class ConexaoDb
+{
 
-  private static $conexao = null;
+    private static $SQL = "mysql:host=localhost;dbname=gincana";
+    private static $USER = "root";
+    private static $PWD = "D3vpr0c0n@";
 
-    public function __construct() {}
+    private static $conexao = null;
 
-    public static function getInstanceConexao() {
+    public function __construct()
+    {
+    }
+
+    public static function getInstanceConexao()
+    {
         if (empty(self::$conexao)) {
-            try{
-               self::$conexao = new PDO(self::$SQL, self::$USER, self::$PWD);
-               self::$conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            } catch(PDOexception $e) {
-               echo $e->getmessage();
+            try {
+                self::$conexao = new PDO(self::$SQL, self::$USER, self::$PWD);
+                self::$conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            } catch (PDOexception $e) {
+                echo $e->getmessage();
             }
         }
         return self::$conexao;
