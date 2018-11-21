@@ -93,6 +93,12 @@ img {
     animation: bounce 1s;
 }
 
+.equipe1:active{
+    background-color: #DA7F02;
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0, 1);
+}
+
 
 .equipe2 {
     background-color: yellow;
@@ -106,9 +112,14 @@ img {
     animation: bounce 1s;
 }
 
+.equipe2:active{
+    background-color: rgb(224, 222, 55);
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0, 1);
+}
 
 .equipe3 {
-    background-color: green;
+    background-color:rgb(74, 165, 10);
     color: white;
     border-radius: 60px;
     font-size: 20px;
@@ -117,6 +128,12 @@ img {
 
 .equipe3:hover {
     animation: bounce 1s;
+}
+
+.equipe3:active{
+    background-color:  green;
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0, 1);
 }
 
 
@@ -132,6 +149,11 @@ img {
     animation: bounce 1s;
 }
 
+.equipe4:active{
+    background-color: rgb(185, 35, 15);
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0, 1);
+}
 
 .equipe5 {
     background-color:blue;
@@ -145,6 +167,11 @@ img {
     animation: bounce 1s;
 }
 
+.equipe5:active{
+    background-color: rgb(12, 48, 150);
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0, 1);
+}
 
 .lateralb {
  margin-top: 10px;
@@ -163,7 +190,7 @@ img {
     position: relative;
 }
 .laterala:hover {
-  opacity: 0.7;
+  opacity: 1;
   filter: alpha(opacity=50);
 }
 .laterala:visited {
