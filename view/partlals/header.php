@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <title>8ª Gincana EDUCAÇÃO PARA O CONSUMO 2018</title>
@@ -22,7 +22,7 @@
   </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <!-- <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="/" >8ª Gincana EDUCAÇÃO PARA O CONSUMO 2018</a>
@@ -33,6 +33,6 @@
         </ul>
     </div>
   </div>
-  </div>  
+  </div>   -->
   <div class="container">
       <div class="principal">
