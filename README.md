@@ -6,6 +6,8 @@ Necessário servidor web, Mysql e PHP instalado!
 ![Alt text](/sprint/gincana2018.png?raw=true "Home")
 ### Tela Placar
 ![Alt text](/sprint/gincana2018-placar.png?raw=true "Placar")
+### Tela Escolha Equipe
+![Alt text](/sprint/gincana2018-escolhaequipe.png?raw=true "Escolha Equipe")
 ### Tela Perguntas
 ![Alt text](/sprint/gincana2018-questão.png?raw=true "Pergunta")
 ### Tela Resposta Correta
