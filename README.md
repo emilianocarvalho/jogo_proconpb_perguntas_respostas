@@ -3,7 +3,7 @@
 Necessário servidor web, Mysql e PHP instalado!
 
 ### Tela Home
-![Alt text](/sprint/home.png?raw=true "Home")
+![Alt text](/sprint/ginana2018.png?raw=true "Home")
 ### Tela Placar
 ![Alt text](/sprint/placar.png?raw=true "Placar")
 ### Tela Perguntas
