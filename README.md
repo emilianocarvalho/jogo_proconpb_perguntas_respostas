@@ -11,7 +11,7 @@ Necessário servidor web, Mysql e PHP instalado!
 ### Tela Resposta Correta
 ![Alt text](/sprint/gincana2018-questãocorreta.png?raw=true "Correta")
 ### Tela Resposta Errada
-![Alt text](/sprint/gincana2018=respostaerrada.png?raw=true "Errada")
+![Alt text](/sprint/gincana2018-respostaerrada.png?raw=true "Errada")
 ### Tela Adicionar Perguntas
 ![Alt text](/sprint/oldversion/adicionar_pergunta_resposta.png?raw=true "Adicionar Pergunta")
 ### Tela Adicionar Equipe
